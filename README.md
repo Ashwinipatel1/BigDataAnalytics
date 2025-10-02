@@ -20,6 +20,7 @@ Releases/Packages: No releases or packages have been published.
 2. Inferred Analysis Workflow
 
 The project's structure is laid out in a series of numbered steps, from initial data transformation to a final applied exercise. This suggests a pedagogical or step-by-step approach to learning and applying data analysis techniques.
+
       1.Data Transformation Using PySpark RDD: The process begins with data transformation, specifically using PySpark's Resilient                 Distributed Datasets (RDDs). This is a fundamental step in big data processing for cleaning, structuring, and preparing data for           analysis.
       2.Collect() Operation with RDD: This step likely involves retrieving data from the distributed RDDs and bringing it back to the              driver node. The collect() operation is used to view the results of transformations.
       3.Sample() and TakeSample() Methods: Following data collection, the workflow includes sampling. These methods are used to select a           random subset of the data, which is useful for testing, exploration, and reducing dataset size for preliminary analysis.
